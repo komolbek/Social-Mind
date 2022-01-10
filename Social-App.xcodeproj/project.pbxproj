@@ -17,6 +17,8 @@
 		655037E6278B79F1007C671A /* Social_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655037E5278B79F1007C671A /* Social_AppTests.m */; };
 		655037F0278B79F1007C671A /* Social_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655037EF278B79F1007C671A /* Social_AppUITests.m */; };
 		655037F2278B79F1007C671A /* Social_AppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655037F1278B79F1007C671A /* Social_AppUITestsLaunchTests.m */; };
+		65927930278BB43900EF0FA3 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6592792F278BB43900EF0FA3 /* Friend.m */; };
+		65927931278BB43900EF0FA3 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6592792F278BB43900EF0FA3 /* Friend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		655037EB278B79F1007C671A /* Social-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		655037EF278B79F1007C671A /* Social_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Social_AppUITests.m; sourceTree = "<group>"; };
 		655037F1278B79F1007C671A /* Social_AppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Social_AppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		6592792E278BB43900EF0FA3 /* Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		6592792F278BB43900EF0FA3 /* Friend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,9 @@
 		655037C8278B79EE007C671A /* Social-App */ = {
 			isa = PBXGroup;
 			children = (
+				6592792C278BB3EC00EF0FA3 /* Presentation */,
+				6592792B278BB3E400EF0FA3 /* Business logic */,
+				65927929278BB3CA00EF0FA3 /* Data */,
 				655037C9278B79EE007C671A /* AppDelegate.h */,
 				655037CA278B79EE007C671A /* AppDelegate.m */,
 				655037CC278B79EE007C671A /* SceneDelegate.h */,
@@ -134,6 +141,29 @@
 				655037F1278B79F1007C671A /* Social_AppUITestsLaunchTests.m */,
 			);
 			path = "Social-AppUITests";
+			sourceTree = "<group>";
+		};
+		65927929278BB3CA00EF0FA3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6592792E278BB43900EF0FA3 /* Friend.h */,
+				6592792F278BB43900EF0FA3 /* Friend.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6592792B278BB3E400EF0FA3 /* Business logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Business logic";
+			sourceTree = "<group>";
+		};
+		6592792C278BB3EC00EF0FA3 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				655037D1278B79EE007C671A /* ViewController.m in Sources */,
+				65927930278BB43900EF0FA3 /* Friend.m in Sources */,
 				655037CB278B79EE007C671A /* AppDelegate.m in Sources */,
 				655037DC278B79F1007C671A /* main.m in Sources */,
 				655037CE278B79EE007C671A /* SceneDelegate.m in Sources */,
@@ -278,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				655037E6278B79F1007C671A /* Social_AppTests.m in Sources */,
+				65927931278BB43900EF0FA3 /* Friend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
