@@ -19,6 +19,10 @@
 		655037F2278B79F1007C671A /* Social_AppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655037F1278B79F1007C671A /* Social_AppUITestsLaunchTests.m */; };
 		65927930278BB43900EF0FA3 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6592792F278BB43900EF0FA3 /* Friend.m */; };
 		65927931278BB43900EF0FA3 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6592792F278BB43900EF0FA3 /* Friend.m */; };
+		65B95EAD27916DBC00469B6E /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B95EAC27916DBC00469B6E /* Comment.m */; };
+		65B95EAE27916DBC00469B6E /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B95EAC27916DBC00469B6E /* Comment.m */; };
+		65B95EB127916DCC00469B6E /* Interest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B95EB027916DCC00469B6E /* Interest.m */; };
+		65B95EB227916DCC00469B6E /* Interest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B95EB027916DCC00469B6E /* Interest.m */; };
 		65FB98762790808700C5D2F1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB98752790808700C5D2F1 /* Person.m */; };
 		65FB9879279080AD00C5D2F1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB9878279080AD00C5D2F1 /* User.m */; };
 		65FB987A279080AD00C5D2F1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB9878279080AD00C5D2F1 /* User.m */; };
@@ -63,6 +67,10 @@
 		655037F1278B79F1007C671A /* Social_AppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Social_AppUITestsLaunchTests.m; sourceTree = "<group>"; };
 		6592792E278BB43900EF0FA3 /* Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
 		6592792F278BB43900EF0FA3 /* Friend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		65B95EAB27916DBC00469B6E /* Comment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		65B95EAC27916DBC00469B6E /* Comment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		65B95EAF27916DCC00469B6E /* Interest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interest.h; sourceTree = "<group>"; };
+		65B95EB027916DCC00469B6E /* Interest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interest.m; sourceTree = "<group>"; };
 		65FB98742790808700C5D2F1 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		65FB98752790808700C5D2F1 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		65FB9877279080AD00C5D2F1 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -165,6 +173,10 @@
 				65FB9878279080AD00C5D2F1 /* User.m */,
 				65FB987B2790822E00C5D2F1 /* Question.h */,
 				65FB987C2790822E00C5D2F1 /* Question.m */,
+				65B95EAB27916DBC00469B6E /* Comment.h */,
+				65B95EAC27916DBC00469B6E /* Comment.m */,
+				65B95EAF27916DCC00469B6E /* Interest.h */,
+				65B95EB027916DCC00469B6E /* Interest.m */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -320,6 +332,8 @@
 				655037CB278B79EE007C671A /* AppDelegate.m in Sources */,
 				65FB987D2790822E00C5D2F1 /* Question.m in Sources */,
 				655037DC278B79F1007C671A /* main.m in Sources */,
+				65B95EB127916DCC00469B6E /* Interest.m in Sources */,
+				65B95EAD27916DBC00469B6E /* Comment.m in Sources */,
 				655037CE278B79EE007C671A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,7 +345,9 @@
 				655037E6278B79F1007C671A /* Social_AppTests.m in Sources */,
 				65FB987E2790822E00C5D2F1 /* Question.m in Sources */,
 				65927931278BB43900EF0FA3 /* Friend.m in Sources */,
+				65B95EAE27916DBC00469B6E /* Comment.m in Sources */,
 				65FB987A279080AD00C5D2F1 /* User.m in Sources */,
+				65B95EB227916DCC00469B6E /* Interest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
