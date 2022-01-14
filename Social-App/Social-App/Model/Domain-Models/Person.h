@@ -1,18 +1,22 @@
 //
-//  Friend.h
+//  Person.h
 //  Social-App
 //
-//  Created by Komolbek Ibragimov on 10/01/2022.
+//  Created by Komolbek Ibragimov on 13/01/2022.
 //
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Friend : NSObject
+@interface Person : NSObject
 
 @property NSString *firstName;
+
 @property NSString *lastName;
+
+@property NSString *dateOfBirth;
+
 @property int age;
 
 @end

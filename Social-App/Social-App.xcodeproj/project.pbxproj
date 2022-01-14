@@ -23,6 +23,8 @@
 		65B95EAE27916DBC00469B6E /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B95EAC27916DBC00469B6E /* Comment.m */; };
 		65B95EB127916DCC00469B6E /* Interest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B95EB027916DCC00469B6E /* Interest.m */; };
 		65B95EB227916DCC00469B6E /* Interest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B95EB027916DCC00469B6E /* Interest.m */; };
+		65B95EB92791ACE300469B6E /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B95EB82791ACE300469B6E /* UserAccount.m */; };
+		65B95EBA2791ACE300469B6E /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B95EB82791ACE300469B6E /* UserAccount.m */; };
 		65FB98762790808700C5D2F1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB98752790808700C5D2F1 /* Person.m */; };
 		65FB9879279080AD00C5D2F1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB9878279080AD00C5D2F1 /* User.m */; };
 		65FB987A279080AD00C5D2F1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB9878279080AD00C5D2F1 /* User.m */; };
@@ -71,6 +73,8 @@
 		65B95EAC27916DBC00469B6E /* Comment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
 		65B95EAF27916DCC00469B6E /* Interest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interest.h; sourceTree = "<group>"; };
 		65B95EB027916DCC00469B6E /* Interest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interest.m; sourceTree = "<group>"; };
+		65B95EB72791ACE300469B6E /* UserAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserAccount.h; sourceTree = "<group>"; };
+		65B95EB82791ACE300469B6E /* UserAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserAccount.m; sourceTree = "<group>"; };
 		65FB98742790808700C5D2F1 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		65FB98752790808700C5D2F1 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		65FB9877279080AD00C5D2F1 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -128,8 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				6592792C278BB3EC00EF0FA3 /* Presentation */,
-				6592792B278BB3E400EF0FA3 /* Business logic */,
-				65927929278BB3CA00EF0FA3 /* Data */,
+				6592792B278BB3E400EF0FA3 /* Business-logic */,
+				65927929278BB3CA00EF0FA3 /* Model */,
 				655037C9278B79EE007C671A /* AppDelegate.h */,
 				655037CA278B79EE007C671A /* AppDelegate.m */,
 				655037CC278B79EE007C671A /* SceneDelegate.h */,
@@ -162,7 +166,29 @@
 			path = "Social-AppUITests";
 			sourceTree = "<group>";
 		};
-		65927929278BB3CA00EF0FA3 /* Data */ = {
+		65927929278BB3CA00EF0FA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65B95EB62791A79100469B6E /* Domain-Models */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6592792B278BB3E400EF0FA3 /* Business-logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Business-logic";
+			sourceTree = "<group>";
+		};
+		6592792C278BB3EC00EF0FA3 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		65B95EB62791A79100469B6E /* Domain-Models */ = {
 			isa = PBXGroup;
 			children = (
 				6592792E278BB43900EF0FA3 /* Friend.h */,
@@ -177,22 +203,10 @@
 				65B95EAC27916DBC00469B6E /* Comment.m */,
 				65B95EAF27916DCC00469B6E /* Interest.h */,
 				65B95EB027916DCC00469B6E /* Interest.m */,
+				65B95EB72791ACE300469B6E /* UserAccount.h */,
+				65B95EB82791ACE300469B6E /* UserAccount.m */,
 			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		6592792B278BB3E400EF0FA3 /* Business logic */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Business logic";
-			sourceTree = "<group>";
-		};
-		6592792C278BB3EC00EF0FA3 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presentation;
+			path = "Domain-Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +342,7 @@
 				65FB98762790808700C5D2F1 /* Person.m in Sources */,
 				65FB9879279080AD00C5D2F1 /* User.m in Sources */,
 				655037D1278B79EE007C671A /* ViewController.m in Sources */,
+				65B95EB92791ACE300469B6E /* UserAccount.m in Sources */,
 				65927930278BB43900EF0FA3 /* Friend.m in Sources */,
 				655037CB278B79EE007C671A /* AppDelegate.m in Sources */,
 				65FB987D2790822E00C5D2F1 /* Question.m in Sources */,
@@ -342,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B95EBA2791ACE300469B6E /* UserAccount.m in Sources */,
 				655037E6278B79F1007C671A /* Social_AppTests.m in Sources */,
 				65FB987E2790822E00C5D2F1 /* Question.m in Sources */,
 				65927931278BB43900EF0FA3 /* Friend.m in Sources */,
