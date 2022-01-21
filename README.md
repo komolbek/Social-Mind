@@ -24,9 +24,11 @@ Currently I am on the design stage. Particularly, creating classes states & beha
 <h2 id="app-features"> App features </h2>
 
 <p align="center"> Use cases </p>
+
 ![Social Mind Use cases](https://user-images.githubusercontent.com/55618255/150543221-929158e4-466e-4383-9e72-91f20753ec6b.jpg)
 
 <p align="center"> Domain model </p>
+
 ![Social Mind domain model](https://user-images.githubusercontent.com/55618255/150543228-9689ed9b-4bab-48ce-927f-713704938885.jpg)
 
 <h2 id="main-design-diagrams"> Main Design diagrams </h2>
