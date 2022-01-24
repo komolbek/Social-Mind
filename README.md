@@ -8,19 +8,6 @@ add about
 - [Technologies](#techstack)
 - [Testing](#testing)
 
-<h2 id="project-progress"> Project's progress </h2>
-
-- [x] Idea & brainstorming;
-- [x] Initial planning;
-- [x] User and System requirements;
-- [ ] Design;
-- [ ] Implementation + TDD;
-- [ ] App Store preparations;
-- [ ] App release;
-
-
-Currently I am on the design stage. Particularly, creating classes states & behaviours from domain model.  
-
 <h2 id="app-features"> App features </h2>
 <h2 id="main-design-diagrams"> Main Design diagrams </h2>
 
@@ -34,3 +21,16 @@ Currently I am on the design stage. Particularly, creating classes states & beha
 
 <h2 id="techstack"> Technologies </h2>
 <h2 id="testing"> Testing </h2>
+
+<h2 id="project-progress"> Project's progress </h2>
+
+- [x] Idea & brainstorming;
+- [x] Initial planning;
+- [x] User and System requirements;
+- [ ] Design;
+- [ ] Implementation + TDD;
+- [ ] App Store preparations;
+- [ ] App release;
+
+
+Currently I am on the design stage. Generating UI View Data models from Domain models & UI pages that will be used in presentation layer.  
