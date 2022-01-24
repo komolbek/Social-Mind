@@ -28,9 +28,9 @@ Currently I am on the design stage. Particularly, creating classes states & beha
 
 ![Social Mind Use cases](https://user-images.githubusercontent.com/55618255/150543221-929158e4-466e-4383-9e72-91f20753ec6b.jpg)
 
-<p align="center"> <b>Domain model</b> </p>
+<p align="center"> <b>Domain model optimised</b> </p>
 
-![Social Mind domain model](https://user-images.githubusercontent.com/55618255/150543228-9689ed9b-4bab-48ce-927f-713704938885.jpg)
+![Social Mind domain model V2](https://user-images.githubusercontent.com/55618255/150772299-2aed75a1-99b0-4103-9f65-4d18beba6bfc.jpg)
 
 <h2 id="techstack"> Technologies </h2>
 <h2 id="testing"> Testing </h2>
