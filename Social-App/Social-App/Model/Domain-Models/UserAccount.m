@@ -9,23 +9,10 @@
 
 @implementation UserAccount
 
-# pragma mark - Initialisation
-
-- (id) init:(User *)user {
-    self = [super init];
-    
-    if (self) {
-        _user = user;
-    }
-    
-    return  self;
-}
-
 # pragma mark - Public operations
 
 - (void)signInUsingUsername:(NSString *)username
                    password:(NSString *)password {
-    
     
 }
 

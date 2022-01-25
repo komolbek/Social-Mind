@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 // readonly eliminates compiler to produce the property setter method, so property will not be able to be modified.
 @property (readonly, atomic, strong) User* user;
+@property (readonly) NSString *username;
+@property (readonly) NSString *password;
 
 #pragma mark - Public operations
 
