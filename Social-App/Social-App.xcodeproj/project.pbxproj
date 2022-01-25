@@ -131,20 +131,16 @@
 		655037C8278B79EE007C671A /* Social-App */ = {
 			isa = PBXGroup;
 			children = (
-				6592792C278BB3EC00EF0FA3 /* Presentation */,
-				6592792B278BB3E400EF0FA3 /* Business-logic */,
+				65C0728927A079F60097CB78 /* Resources */,
+				65C0728827A079DC0097CB78 /* AppConfig */,
+				6592792C278BB3EC00EF0FA3 /* View */,
+				6592792B278BB3E400EF0FA3 /* Controller */,
 				65927929278BB3CA00EF0FA3 /* Model */,
-				655037C9278B79EE007C671A /* AppDelegate.h */,
-				655037CA278B79EE007C671A /* AppDelegate.m */,
-				655037CC278B79EE007C671A /* SceneDelegate.h */,
-				655037CD278B79EE007C671A /* SceneDelegate.m */,
 				655037CF278B79EE007C671A /* ViewController.h */,
 				655037D0278B79EE007C671A /* ViewController.m */,
 				655037D2278B79EE007C671A /* Main.storyboard */,
 				655037D5278B79F1007C671A /* Assets.xcassets */,
 				655037D7278B79F1007C671A /* LaunchScreen.storyboard */,
-				655037DA278B79F1007C671A /* Info.plist */,
-				655037DB278B79F1007C671A /* main.m */,
 			);
 			path = "Social-App";
 			sourceTree = "<group>";
@@ -169,44 +165,56 @@
 		65927929278BB3CA00EF0FA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				65B95EB62791A79100469B6E /* Domain-Models */,
+				65B95EAB27916DBC00469B6E /* Comment.h */,
+				65B95EAC27916DBC00469B6E /* Comment.m */,
+				6592792E278BB43900EF0FA3 /* Friend.h */,
+				6592792F278BB43900EF0FA3 /* Friend.m */,
+				65B95EAF27916DCC00469B6E /* Interest.h */,
+				65B95EB027916DCC00469B6E /* Interest.m */,
+				65FB98742790808700C5D2F1 /* Person.h */,
+				65FB98752790808700C5D2F1 /* Person.m */,
+				65FB987B2790822E00C5D2F1 /* Question.h */,
+				65FB987C2790822E00C5D2F1 /* Question.m */,
+				65FB9877279080AD00C5D2F1 /* User.h */,
+				65FB9878279080AD00C5D2F1 /* User.m */,
+				65B95EB72791ACE300469B6E /* UserAccount.h */,
+				65B95EB82791ACE300469B6E /* UserAccount.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		6592792B278BB3E400EF0FA3 /* Business-logic */ = {
+		6592792B278BB3E400EF0FA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Business-logic";
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		6592792C278BB3EC00EF0FA3 /* Presentation */ = {
+		6592792C278BB3EC00EF0FA3 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Presentation;
+			path = View;
 			sourceTree = "<group>";
 		};
-		65B95EB62791A79100469B6E /* Domain-Models */ = {
+		65C0728827A079DC0097CB78 /* AppConfig */ = {
 			isa = PBXGroup;
 			children = (
-				6592792E278BB43900EF0FA3 /* Friend.h */,
-				6592792F278BB43900EF0FA3 /* Friend.m */,
-				65FB98742790808700C5D2F1 /* Person.h */,
-				65FB98752790808700C5D2F1 /* Person.m */,
-				65FB9877279080AD00C5D2F1 /* User.h */,
-				65FB9878279080AD00C5D2F1 /* User.m */,
-				65FB987B2790822E00C5D2F1 /* Question.h */,
-				65FB987C2790822E00C5D2F1 /* Question.m */,
-				65B95EAB27916DBC00469B6E /* Comment.h */,
-				65B95EAC27916DBC00469B6E /* Comment.m */,
-				65B95EAF27916DCC00469B6E /* Interest.h */,
-				65B95EB027916DCC00469B6E /* Interest.m */,
-				65B95EB72791ACE300469B6E /* UserAccount.h */,
-				65B95EB82791ACE300469B6E /* UserAccount.m */,
+				655037C9278B79EE007C671A /* AppDelegate.h */,
+				655037CA278B79EE007C671A /* AppDelegate.m */,
+				655037DA278B79F1007C671A /* Info.plist */,
+				655037DB278B79F1007C671A /* main.m */,
+				655037CC278B79EE007C671A /* SceneDelegate.h */,
+				655037CD278B79EE007C671A /* SceneDelegate.m */,
 			);
-			path = "Domain-Models";
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		65C0728927A079F60097CB78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -532,7 +540,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DFZ8N2CQSG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Social-App/Info.plist";
+				INFOPLIST_FILE = "Social-App/AppConfig/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -559,7 +567,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DFZ8N2CQSG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Social-App/Info.plist";
+				INFOPLIST_FILE = "Social-App/AppConfig/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
