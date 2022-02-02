@@ -33,4 +33,4 @@ add about
 - [ ] App release;
 
 
-Currently I am on the design stage. Generating UI View Data models from Domain models & UI pages that will be used in presentation layer.  
+Currently I am on the design stage. Further task decomposition required.  
